@@ -2,7 +2,6 @@
 #include <vector>
 #include <utility>
 
-
 void rotate(
     std::vector<std::vector<int>>& vec,
     int x, 
