@@ -1,5 +1,4 @@
 import { readFileSync } from "node:fs";
-import process from "node:process";
 
 const data = readFileSync("./dev/stdin");
 const input: string[] = data.toString("ascii").trim().split("\n");
@@ -7,7 +6,9 @@ const input: string[] = data.toString("ascii").trim().split("\n");
 // use tsc P1328-advanced-RPS.ts --noEmitHelpers --declaration false --sourceMap false
 // to compile TypeScript and remove header using CommonJS module
 //
-// 
+// const fs = require('fs')
+// const data = fs.readFileSync('./dev/stdin')
+// const input = data.toString('ascii').trim().split("\n")
 
 const GestureEnum = Object.freeze({
   Scissors: 0,
@@ -69,7 +70,6 @@ function main() {
     result.filter((r) => r === 1).length + " " +
     result.filter((r) => r === 2).length
   );
-  process.exit();
 }
 
 main();
