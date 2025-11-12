@@ -9,6 +9,11 @@ const input: string[] = data.toString("ascii").trim().split("\n");
 // const fs = require('fs')
 // const data = fs.readFileSync('./dev/stdin')
 // const input = data.toString('ascii').trim().split("\n")
+//
+// When you test in your local machine (My OS is Arch Linux) you should modify
+// the `"./dev/stdin"` to `/dev/stdin`
+//
+// Now I can use TypeScript playground to compile and that's more convenient
 
 const GestureEnum = Object.freeze({
   Scissors: 0,
@@ -19,8 +24,7 @@ const GestureEnum = Object.freeze({
 });
 
 type GestureType
-  = typeof GestureEnum extends Readonly<infer O>
-    ? O[keyof O]
+  = typeof GestureEnum extends Readonly<infer O> ? O[keyof O]
     : never;
 
 const result: Array<0 | 1 | 2> = [];
