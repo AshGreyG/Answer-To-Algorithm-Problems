@@ -104,7 +104,10 @@ function leastProcessTime(
     } else {
       for (let j = 0; j < currentVacantIndexMap.length; ++j) {
         if (
-          currentVacantIndexMap[j][0] + currentVacantIndexMap[j][1] - lastTime >= currentTime
+          currentVacantIndexMap[j][0]
+            + currentVacantIndexMap[j][1] 
+            - Math.max(currentVacantIndexMap[j][0], lastTime) 
+          >= currentTime
         ) {
           for (let k = 0; k < currentTime; ++k) {
             currentMachineSchedule[
