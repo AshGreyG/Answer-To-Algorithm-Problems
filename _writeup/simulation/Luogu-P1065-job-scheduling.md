@@ -2,6 +2,7 @@
 tags:
   - computer-science
   - algorithm
+  - algorithm-simulation
   - typescript
 date: 2025-11-25
 ---
