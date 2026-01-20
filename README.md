@@ -1,2 +1,46 @@
-# answer-to-algorithm-problems
-Personal answers to algorithm problems, divided by different OJ platforms
+# ♟️ Answers to Algorithm Problems
+
+## 🎪 Luogu
+
+<!--  TODO
+  --  + Writeup for problem P1249
+  --  + Writeup for problem P1518
+  -->
+
+| Code  |         Name          |  Language  | Tag                                               | Difficulty |                                Source                                |                             WP                              |
+| :---- | :-------------------: | :--------: | :------------------------------------------------ | :--------: | :------------------------------------------------------------------: | :---------------------------------------------------------: |
+| P1002 |  River Crossing Pawn  |   Python   | 2-dimension dp                                    |   +----    | [P1002-river-crossing-pawn.py](./luogu/P1002-river-crossing-pawn.py) |                              -                              |
+| P1003 |      Lay Carpet       |   Python   | simulation                                        |   -----    |          [P1003-lay-carpet.py](./luogu/P1003-lay-carpet.py)          |                              -                              |
+| P1012 |     Join Numbers      |   Python   | greedy algorithm                                  |   +----    |        [P1012-join-numbers.py](./luogu/P1012-join-numbers.py)        |                              -                              |
+| P1014 |     Cantor Table      |   Python   | simulation                                        |   -----    |        [P1014-cantor-table.py](./luogu/P1014-cantor-table.py)        |                              -                              |
+| P1028 |     Number Array      |   Python   | counting dp                                       |   +----    |        [P1028-number-array.py](./luogu/P1028-number-array.py)        |                              -                              |
+| P1042 | Ping-Pong Competition |    C++     | simulation                                        |   -----    |      [P1042-pingpong-comp.cpp](./luogu/P1042-pingpong-comp.cpp)      |                              -                              |
+| P1044 |     Stack Catalan     |   Python   | counting dp, catalan number                       |   ++---    |       [P1044-stack-catalan.py](./luogu/P1044-stack-catalan.py)       | [+](./_writeup/dp/counting-dp/Luogu-P1044-stack-catalan.md) |
+| P1045 |    Mersenne Prime     | TypeScript | simulation                                        |   -----    |      [P1045-mersenne-prime.ts](./luogu/P1045-mersenne-prime.ts)      |                              -                              |
+| P1059 |        Random         |   Python   | sorting                                           |   -----    |              [P1059-random.py](./luogu/P1059-random.py)              |                              -                              |
+| P1065 |    Job Scheduling     | TypeScript | simulation                                        |   +----    |      [P1065-job-scheduling.ts](./luogu/P1065-job-scheduling.ts)      |  [+](./_writeup/simulation/Luogu-P1065-job-scheduling.md)   |
+| P1067 |   Polynomial String   | TypeScript | simulation                                        |   -----    |   [P1067-polynomial-string.ts](./luogu/P1067-polynomial-string.ts)   |                              -                              |
+| P1068 |       Scoreline       |   Python   | sorting                                           |   -----    |           [P1068-scoreline.py](./luogu/P1068-scoreline.py)           |                              -                              |
+| P1093 |        Awards         |   Python   | sorting                                           |   -----    |              [P1093-awards.py](./luogu/P1093-awards.py)              |                              -                              |
+| P1098 |   Parameter Expand    | TypeScript | recurse                                           |   -----    |    [P1098-parameter-expand.ts](./luogu/P1098-parameter-expand.ts)    |                              -                              |
+| P1104 |       Birthday        |   Python   | sorting                                           |   -----    |            [P1104-birthday.py](./luogu/P1104-birthday.py)            |                              -                              |
+| P1116 |  Carriage Rearrange   |   Python   | sorting                                           |   -----    |  [P1116-carriage-rearrange.py](./luogu/P1116-carriage-rearrange.py)  |                              -                              |
+| P1152 |      Jolly Jump       |   Python   | simulation                                        |   -----    |          [P1152-jolly-jump.py](./luogu/P1152-jolly-jump.py)          |                              -                              |
+| P1164 |      Order Foods      |   Python   | knapsack dp                                       |   ++---    |         [P1164-order-foods.py](./luogu/P1164-order-foods.py)         |                              -                              |
+| P1249 |     Max Multiple      |   Python   | combinatorics                                     |   ++---    |        [P1249-max-multiple.py](./luogu/P1249-max-multiple.py)        |                              -                              |
+| P1255 |     Count Stairs      |   Python   | counting dp                                       |   +----    |        [P1255-count-stairs.py](./luogu/P1255-count-stairs.py)        |                              -                              |
+| P1328 |     Advanced RPS      | TypeScript | simulation                                        |   -----    |        [P1328-advanced-RPS.ts](./luogu/P1328-advanced-RPS.ts)        |                              -                              |
+| P1464 |  Recursive Function   |   Python   | recurse                                           |   -----    |  [P1464-recursive-function.py](./luogu/P1464-recursive-function.py)  |                              -                              |
+| P1518 |     Tamworth Two      | TypeScript | state machine, simulation, fast-and-slow pointers |   +----    |        [P1518-tamworth-two.py](./luogu/P1518-tamworth-two.ts)        |                              -                              |
+| P1563 |        Toyman         |    C++     | simulation                                        |   -----    |             [P1563-toyman.cpp](./luogu/P1563-toyman.cpp)             |                              -                              |
+| P1591 |   Factorial Digits    | TypeScript | simulation                                        |   -----    |    [P1591-factorial-digits.ts](./luogu/P1591-factorial-digits.ts)    |                              -                              |
+| P1601 |  High Precision Add   |    C++     | high precision                                    |   +----    |   [P1601-high-precision.cpp](./luogu/P1601-high-precision-add.cpp)   |                              -                              |
+| P1604 |        B Base         |   Python   | simulation                                        |   -----    |              [P1604-b-base.py](./luogu/P1604-b-base.py)              |                              -                              |
+| P1781 |  Universe President   |   Python   | sorting                                           |   -----    |  [P1781-universe-president.py](./luogu/P1781-universe-president.py)  |                              -                              |
+| P1786 |    Dragonfly Kang     | TypeScript | sorting                                           |   -----    |    [P1786-dragonfly-kang.ts](./luogu/P1781-universe-president.py)    |                              -                              |
+| P1928 |     Alien Cipher      |   Python   | simulation                                        |   -----    |        [P1928-alien-cipher.py](./luogu/P1928-alien-cipher.py)        |                              -                              |
+| P2437 |       Bee Path        |   Python   | 2-dimension dp                                    |   +----    |            [P2437-bee-path.py](./luogu/P2437-bee-path.py)            |                              -                              |
+| P2670 |         Mines         |    C++     | simulation                                        |   -----    |              [P2670-mines.cpp](./luogu/P2670-mines.cpp)              |                              -                              |
+| P2676 |    Bookshelf Cows     |   Python   | sorting                                           |   -----    |      [P2676-bookshelf-cows.py](./luogu/P2676-bookshelf-cows.py)      |                              -                              |
+| P4924 |    Matrix Rotation    |    C++     | matrix, simulation                                |   -----    |    [P4924-matrix-rotation.cpp](./luogu/P4924-matrix-rotation.cpp)    |                              -                              |
+| P5143 |   Climbing Distance   |   Python   | sorting                                           |   -----    |   [P5143-climbing-distance.py](./luogu/P5143-climbing-distance.py)   |                              -                              |
