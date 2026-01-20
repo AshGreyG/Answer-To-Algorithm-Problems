@@ -5,9 +5,6 @@
 #include <cmath>
 
 int main() {
-
-    // begin input
-
     std::vector<std::string> score;
     std::string input;
     while (std::cin >> input) {
@@ -17,14 +14,10 @@ int main() {
         }
     }
 
-    // end input
-    
     std::vector<std::pair<unsigned int, unsigned int>> rate_11, rate_21;
     unsigned int 
         count_11_w = 0, count_11_l = 0, 
         count_21_w = 0, count_21_l = 0;
-
-    // begin calculate rate
 
     for (const auto& line : score) {
         for (const auto ch : line) {
@@ -55,21 +48,14 @@ int main() {
         }
     }
 
-    // end calculate rate : 1.notice that count_11(21)_w(l) may not be 0,
-    //                    :   so we need to deal with the last non-zero
-    //                    :   score rate
-    //                    : 2.notice that count_11(21)_w(l) are `unsigned
-    //                    :   int`, if we want to use it to calculate `abs`, 
-    //                    :   we must use `static_cast<int>`
-
-    // begin calculate last non-zero score rate
+    // end calculate rate
+    //   1. notice that count_11(21)_w(l) may not be 0, so we need to deal with
+    //     the last non-zero score rate
+    //   2.notice that count_11(21)_w(l) are `unsigned int`, if we want to use 
+    //     it to calculate `abs`, we must use `static_cast<int>`
 
     rate_11.emplace_back(count_11_w, count_11_l);
     rate_21.emplace_back(count_21_w, count_21_l);
-
-    // end calculate last non-zero score rate
-
-    // begin output
 
     std::string output_11 = "", output_21 = "";
     for (const auto& rate : rate_11) {
