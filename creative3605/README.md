@@ -6,4 +6,5 @@
 | 0322-L |  Defuse Bomb  |   Python    | simulation                        |   -----    |   [0322-L-Defuse-Bomb](./0322-L-Defuse-Bomb.py)   |  -  |
 | 0324-A |  Alice Game   | Python, C++ | game theory, nim game, precompute |   +++--    |   [0324-A-Alice-Game](./0324-A-Alice-Game.cpp)    |  -  |
 | 0324-B | Binary Number |   Python    | string processing                 |   ++---    | [0324-B-Binary-Number](./0324-B-Binary-Number.py) |  -  |
+| 0324-C |   Card Game   |   Python    | recursion, BFS, precompute, qpow  |   ++---    |     [0324-C-Card-Game](./0324-C-Card-Game.py)     |  -  |
 | 0324-F |   Substring   | Python, C++ | string processing                 |   +----    |    [0324-F-Substring](./0324-F-Substring.cpp)     |  -  |
